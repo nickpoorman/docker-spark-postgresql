@@ -1,6 +1,8 @@
 # docker-spark-postgresql
 
-Runs nickpoorman/docker-spark-postgresql-base Docker image.
+Runs [nickpoorman/docker-spark-postgresql-base](https://github.com/nickpoorman/docker-spark-postgresql-base) Docker image.
+
+*Note: It's actual parent is [nickpoorman/docker-mesos](https://github.com/nickpoorman/docker-mesos) so that we have the mesos lib included.*
 
 This container should be used to run a Spark app and packaged with everything the client (master) needs.
 
